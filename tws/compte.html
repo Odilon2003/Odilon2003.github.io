@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compte</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        label{
+            width: 20%;
+            display: inline-block;
+            text-align: left;
+        }
+        body{
+            width: 50%;
+            font-family: arial;
+            margin: 5px auto;
+            background: #f4f7f8;
+            padding: 20px;
+            color: blueviolet;
+
+        }
+        fieldset{
+            border-radius: 8px;
+        }
+        legend{
+            font-size: 1.4em;
+            margin-bottom: 10px;
+        }
+        input[type="text"], input[type="number"], input[type="email"]
+        {
+            border-radius: 5px;
+            padding: 10px;
+            width: 70%;
+            background-color: #fff;
+            margin: 10px;
+        }
+        input[type="submit"]
+         {
+            position: relative;
+            padding: 20px;
+            font-size: 18px;
+            border: 1px solid #16a085;
+            border-radius: 2px;
+            margin: 10px;
+            width: 100%;
+         }
+
+    </style>
+</head>
+<body>
+    <section class="header-section">
+        <div class="container">
+            <header class="navbar">
+                <div class="logo">
+                   <img src="../logo.png" alt="Bproo logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Acceuil</a></li>
+                        <li><a href="produits.html">Produit</a></li>
+                        <li><a href="propos.html">Apropos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="compte.html">Compte</a></li>
+                    </ul>
+                </nav>
+        
+            </header>
+
+           
+    
+        </div>
+    </section>
+
+
+    <form>
+        <fieldset>
+            <legend>Inscription</legend>
+
+         <label>Nom</label> <input type="text" placeholder="votre nom ici"/> <br>
+         <label>Prenom</label> <input type="text" placeholder="votre prenom ici"/> <br>
+         <label>Numero</label> <input type="text" placeholder="votre numero ici"/> <br>
+         <label>Mail</label> <input type="email" placeholder="votre mail ici"/> <br>
+         <label>sexe</label> <input type="radio" name="gender" value="Homme"/>Homme <input type="radio" name="gender" value="Femme"/>Femme <br>
+         <input type="submit" value="Valider"/>
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
